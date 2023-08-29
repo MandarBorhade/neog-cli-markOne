@@ -34,6 +34,9 @@ function greet() {
   console.log('**************************************')
 }
 
+
+//answer question check
+
 function questionCheck(question, answer) {
   var userAnswer = readLineSync.question(question)
   if (userAnswer.toLowerCase() === answer.toLowerCase()) {
